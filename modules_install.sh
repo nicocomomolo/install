@@ -17,6 +17,7 @@ sudo git clone --branch $OE_VERSION https://github.com/OCA/l10n-spain.git $OE_HO
 echo -e "\n==== Installing some modules ===="
 sudo git clone --branch $OE_VERSION https://github.com/OCA/account-financial-tools.git $OE_HOME/account-financial-tools
 sudo git clone --branch $OE_VERSION https://github.com/OCA/account-financial-reporting.git $OE_HOME/account-financial-reporting
+sudo git clone --branch $OE_VERSION https://github.com/OCA/account-invoicing.git $OE_HOME/account-invoicing
 sudo git clone --branch $OE_VERSION https://github.com/OCA/account-payment.git $OE_HOME/account-payment
 sudo git clone --branch $OE_VERSION https://github.com/OCA/knowledge.git $OE_HOME/knowledge
 sudo git clone --branch $OE_VERSION https://github.com/OCA/reporting-engine.git $OE_HOME/reporting-engine
@@ -34,6 +35,7 @@ sudo ln -s $OE_HOME/account-financial-tools/account_chart_update $OE_HOME/custom
 sudo ln -s $OE_HOME/account-financial-tools/account_tax_balance $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_constraint_chronology $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_currency $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/account-invoicing/account_invoice_refund_link $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_journal_always_check_date $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_renumber $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list $OE_HOME/custom/addons/
@@ -59,8 +61,6 @@ sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod111/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod115/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod130/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod303/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod340_type0/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod340/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod347/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod349/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat/ $OE_HOME/custom/addons/
