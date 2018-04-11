@@ -41,6 +41,7 @@ sudo ln -s $OE_HOME/bank-payment/account_banking_mandate/ $OE_HOME/custom/addons
 sudo ln -s $OE_HOME/bank-payment/account_banking_pain_base/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_banking_sepa_direct_debit/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_banking_sepa_credit_transfer/ $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/bank-payment/account_payment_mode/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/bank-payment/account_payment_partner $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/attachment_preview/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/knowledge/attachments_to_filesystem/ $OE_HOME/custom/addons/
