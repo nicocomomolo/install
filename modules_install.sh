@@ -31,12 +31,12 @@ sudo git clone --branch $OE_VERSION https://github.com/OCA/bank-statement-import
 echo -e "\n---- Create some links ----"
 sudo ln -s $OE_HOME/account-financial-reporting/account_export_csv $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-reporting/account_move_line_report_xls $OE_HOME/custom/addons/
+sudo ln -s $OE_HOME/account-financial-reporting/account_tax_balance $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_chart_update $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_tax_balance $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_constraint_chronology $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_invoice_currency $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-invoicing/account_invoice_refund_link $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/account-financial-tools/account_journal_always_check_date $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-financial-tools/account_renumber $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/account-payment/account_due_list_payment_mode $OE_HOME/custom/addons/
@@ -56,13 +56,6 @@ sudo ln -s $OE_HOME/l10n-spain/account_balance_reporting/ $OE_HOME/custom/addons
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_account_asset/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_account_balance_report/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_account_bank_statement_import_n43/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_account_invoice_sequence/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod111/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod115/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod130/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod303/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod347/ $OE_HOME/custom/addons/
-sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat_mod349/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_aeat/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_partner_mercantil/ $OE_HOME/custom/addons/
 sudo ln -s $OE_HOME/l10n-spain/l10n_es_partner/ $OE_HOME/custom/addons/
