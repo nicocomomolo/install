@@ -27,7 +27,6 @@
 "l10n_es_toponyms",
 "l10n_es_partner_mercantil",
 "l10n_es_partner",
-"l10n_es_aeat_mod111",
 "l10n_es_aeat",
 "l10n_es_account_bank_statement_import_n43",
 "l10n_es_account_balance_report",
