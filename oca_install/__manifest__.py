@@ -44,7 +44,6 @@
 "account_invoice_constraint_chronology",
 "account_due_list_payment_mode",
 "account_tax_balance",
-"account_bank_statement_import",
 "account_banking_sepa_direct_debit",
 "account_banking_pain_base",
 "account_banking_mandate",
